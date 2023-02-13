@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-nev_order: 1
+nev_exclude: true
 permalink: /
 
 ---
