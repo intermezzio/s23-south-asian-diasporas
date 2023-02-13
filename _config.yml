@@ -3,5 +3,4 @@ description: A compilation of notes from the South Asian Diasporas course taught
 baseurl: "/s23-south-asian-diasporas"
 url: "https://intermezzio.me"
 
-theme: just-the-docs
-
+remote_theme: just-the-docs/just-the-docs
