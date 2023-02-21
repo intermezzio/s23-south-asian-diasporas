@@ -2,12 +2,9 @@ title: SAS-232 Notes
 description: A compilation of notes from the South Asian Diasporas course taught by Professor Smitha Radhakrishnan at Wellesley College
 baseurl: "/s23-south-asian-diasporas"
 url: "https://intermezzio.me"
-markdown: Pandoc
+markdown: rdiscount
 
 remote_theme: just-the-docs/just-the-docs
-
-plugins:
-  - jekyll-pandoc
 
 exclude:
   - README.md
@@ -23,3 +20,6 @@ back_to_top_text: "Back to top"
 
 footer_content: "Copyright &copy; 2023 Andrew Mascillaro."
 
+pandoc:
+  format: html5
+  extensions: [smart]
