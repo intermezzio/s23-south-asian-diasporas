@@ -6,6 +6,9 @@ markdown: Pandoc
 
 remote_theme: just-the-docs/just-the-docs
 
+gems:
+  - jekyll-pandoc
+
 exclude:
   - README.md
 
